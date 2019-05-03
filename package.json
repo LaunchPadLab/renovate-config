@@ -1,0 +1,19 @@
+{
+  "name": "@launchpadlab/renovate-config",
+  "version": "1.0.0",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":preserveSemverRanges"
+      ],
+      "minor": {
+        "enabled": false
+      },
+      "patch": {
+        "enabled": false
+      },
+      "prHourlyLimit": 0
+    }
+  }
+}
